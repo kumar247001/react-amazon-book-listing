@@ -1,21 +1,22 @@
 ![React Logo](https://github.com/vercel/vercel/blob/master/packages/frameworks/logos/react.svg)
 
-# React Example
+# React Amazon Book Listing
 
-This directory is a brief example of a [React](https://reactjs.org/) app with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction) that can be deployed with Vercel and zero configuration.
+This directory is a brief example of react listing. I have used dummy data for listing all the content using props and state. Application is composed by three main components
 
-## Deploy Your Own
+1. Book Component
+2. BookList Component
+3. Rating Component
 
-Deploy your own React project, along with Serverless Functions, with Vercel.
+## Live URL
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/vercel/tree/master/examples/create-react-app-functions)
+https://react-amazon-book-listing.vercel.app/_
 
-_Live Example: https://create-react-app.now-examples.now.sh/_
+### How to run this code
 
-### How We Created This Example
-
-To get started with React, along with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction), with Vercel, you can use the [Create-React-App CLI](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app) to initialize the project:
+Clone this repo
 
 ```shell
-$ npx create-react-app my-app
+$ npm install
+$ npm run start
 ```
