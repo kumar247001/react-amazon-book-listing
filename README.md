@@ -14,7 +14,7 @@ This directory is a brief example of react listing. I have used dummy data for l
 
 ## Live URL
 
-https://react-amazon-book-listing.vercel.app/_
+https://react-amazon-book-listing.vercel.app
 
 ### How to run this code
 
