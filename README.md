@@ -8,6 +8,10 @@ This directory is a brief example of react listing. I have used dummy data for l
 2. BookList Component
 3. Rating Component
 
+## Screenshot
+
+![Screenshot Image](https://github.com/kumar247001/react-amazon-book-listing/blob/master/screenshot.png)
+
 ## Live URL
 
 https://react-amazon-book-listing.vercel.app/_
