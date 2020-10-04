@@ -17,8 +17,10 @@ const Book = (props) => {
       <p className="book_item__name">{name}</p>
       <p className="book_item__author">{author}</p>
       <p className="book_item__price">
-        {currency}{" "}
-        <span className="book_item__price--discounted">{discounted_price}</span>{" "}
+        {currency}
+        <span className="book_item__price--discounted">
+          {discounted_price}
+        </span>{" "}
         <span className="book_item__price--original">{original_price}</span>
       </p>
       <Rating count={rating} />
