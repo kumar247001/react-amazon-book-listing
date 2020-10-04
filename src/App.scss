@@ -3,18 +3,26 @@
   padding:0;
   margin:0;
 }
+.App {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 .booklist {
   display: flex;
   flex-wrap: wrap;
 }
 .book_item {
   font-size: 13px;
-  flex-basis: calc(100% / 6);
+  flex-basis: calc((100% / 4) - 40px);
   padding: 20px;
-  border: 1px solid #ddd;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  margin: 20px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 &__image {
   width:100%;
   max-width: 150px;
@@ -29,6 +37,7 @@
   margin-bottom: 5px;
 }
 &__price{
+  margin-bottom: 5px;
   &--original {
     text-decoration: line-through;
   }
@@ -44,7 +53,16 @@ font-size: 16px;
 
 @media only screen and (max-width:991px){
   .book_item{
-    flex-basis: calc(100% / 3);
+    flex-basis: calc((100% / 3) - 40px);
+    &__image {
+      margin: 0 0 10px 0;
+    }
+  }
+}
+
+@media only screen and (max-width:768px){
+  .book_item{
+    flex-basis: calc((100% / 2) - 40px);
     &__image {
       margin: 0 0 10px 0;
     }
